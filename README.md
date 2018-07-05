@@ -1,6 +1,9 @@
 # Lotus Domino Path Discovery
 A python script to identify unauthenticated Lotus Domino exposed paths.
 
+## Dependencies
+The script needs python requests: `pip install requests`
+
 ## Howto
 #### 1st step
 Edit the domino_discovery.py file:
