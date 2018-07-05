@@ -1,4 +1,4 @@
-# Lotus Domino Path Discovery
+# Domino Leak
 A python script to identify unauthenticated Lotus Domino exposed paths.
 
 ## Dependencies
