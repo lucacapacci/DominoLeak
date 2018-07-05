@@ -6,8 +6,8 @@ import time
 
 
 starting_points = ["http://vulnerablewebsite/subpath/",
-                   "http://vulnerablewebsite/subpath2/",
-                   "http://vulnerablewebsite/subpath3/subsubpath/"]
+                   "https://vulnerablewebsite/subpath/",
+                   "http://vulnerablewebsite/subpath2/subsubpath/"]
 
 fail_page_contents = ["<title>ACME inc - Login Page</title>", 
                       "need authentication"]
