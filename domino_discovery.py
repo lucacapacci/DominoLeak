@@ -354,7 +354,7 @@ for starting_point in starting_points:
     for path in paths:
         test_path = u'{0}{1}'.format(starting_point, path)
         print u"testing", test_path
-        r = requests.get(test_path)
+        r = requests.get(test_path, verify=False)
 
         valid = True
         if r.status_code in fail_status_codes:
