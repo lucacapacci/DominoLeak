@@ -12,7 +12,7 @@ starting_points = ["http://vulnerablewebsite/subpath/",
 fail_page_contents = ["<title>ACME inc - Login Page</title>", 
                       "need authentication"]
 
-fail_status_codes = [404, 500]
+fail_status_codes = [400, 404, 500]
 
 sleep_time_seconds = 1
 
